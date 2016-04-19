@@ -1,5 +1,13 @@
 import math
 
+def mpush(master):
+    new=new_matrix()
+    last=master[-1]
+    for i in range(4):
+        for j in range(4):
+            new[i][j]=last[i][j]
+    master.append(new)
+    
 def make_bezier():
     b = new_matrix()
     ident(b)

@@ -1,0 +1,83 @@
+#left leg base
+push
+translate
+50 50 0
+yrotate
+45
+xrotate
+10
+box
+50 50 50 50 10 50
+#left leg
+push
+translate
+25 10 25
+box
+50 285 25 15 250 25
+#top beam
+push
+translate
+25 285 0
+box
+0 0 0 450 10 10
+#right leg
+push
+translate
+450 0 0
+box
+0 0 0 15 250 25
+#right leg base
+push
+translate
+-25 -288 0
+box
+50 50 50 50 10 50
+#####################string1.1
+push
+translate
+-250 288 30
+line
+0 0 0 0 -100 0
+#####################string2.1
+push
+translate
+50 0 0
+line
+0 0 0 0 -100 0
+#####################string3.1
+push
+translate
+50 0 0
+line
+0 0 0 0 -100 0
+####################string4.1
+push
+translate
+50 0 0
+line
+0 0 0 0 -100 0
+######################sphere4
+push
+translate
+0 -100 0
+sphere
+0 0 17
+######################sphere3
+push
+translate
+-50 0 0
+sphere
+0 0 17
+#######################sphere2
+push
+translate
+-50 0 0
+sphere
+0 0 17
+#######################sphere1
+push
+translate
+-50 0 0
+sphere
+0 0 17
+display

@@ -273,6 +273,7 @@ def add_curve( points, x0, y0, x1, y1, x2, y2, x3, y3, step, curve_type ):
         t+= step
 
 def draw_lines( matrix, screen, color ):
+    print 'drawing line'
     if len( matrix ) < 2:
         print "Need at least 2 points to draw a line"
         
